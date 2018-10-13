@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Removals-->
+  <remove-project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/ivy" name="SonyAosp/device_sony_ivy" groups="device" remote="github" revision="android-7.0" />
+
+  <remove-project path="device/sony/karin" name="SonyAosp/device_sony_karin" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/karin_windy" name="SonyAosp/device_sony_karin_windy" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/suzuran" name="SonyAosp/device_sony_suzuran" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/satsuki" name="SonyAosp/device_sony_satsuki" groups="device" remote="github" revision="android-7.0" />
+
+  <remove-project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.0" />
+
+  <remove-project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/togari" name="SonyAosp/device_sony_togari" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/amami" name="SonyAosp/device_sony_amami" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="android-7.0" />
+
+  <remove-project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/sirius" name="SonyAosp/device_sony_sirius" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/castor" name="SonyAosp/device_sony_castor" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/castor_windy" name="SonyAosp/device_sony_castor_windy" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/aries" name="SonyAosp/device_sony_aries" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/leo" name="SonyAosp/device_sony_leo" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
+
+  <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
+
+  <remove-project path="packages/apps/TV" name="platform/packages/apps/TV" />
+
+  <remove-project path="art" name="platform/art" groups="pdk" />
+  <remove-project path="bionic" name="platform/bionic" groups="pdk" />
+<!-- My Repos -->
+<remove-project name="SonyAosp/kernel" />
+<remove-project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-7.0" />
+<remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+<remove-project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+<remove-project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+<remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+<remove-project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.0" />
+<remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+<remove-project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-7.0" />
+<remove-project name="platform/system/tools/aidl" />
+<remove-project path="libcore" name="platform/libcore" groups="pdk" />
+<remove-project name="SonyAosp/platform_frameworks_base"  />
+
+<!-- Android/External -->
+  <remove-project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
+  <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <remove-project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
+  <remove-project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <remove-project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <remove-project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <remove-project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
+  <remove-project path="external/v8" name="platform/external/v8" groups="pdk" />
+  <remove-project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
+  <remove-project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
+  <remove-project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
+  <remove-project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="external/expat" name="platform/external/expat" groups="pdk" />
+  <remove-project path="external/eigen" name="platform/external/eigen" groups="pdk" />
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <remove-project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <remove-project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
+  <remove-project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="external/zlib" name="platform/external/zlib" groups="pdk" />
+  <remove-project path="external/vixl" name="platform/external/vixl" groups="pdk" />
+  <remove-project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
+<!--<remove-project name="SonyAosp/kernel" /> -->
+
+<project path="kernel/sony/ref" name="zachariasmaladroit/android_kernel_sony_msm8994_kitakami_r2" revision="Sun-Kernel_Eclipse_32.2.A.0.305_corona_III.1_9_12_5_ctl_X" remote="github" />
+
+<project path="kernel/sony/franco_marlin" name="franciscofranco/marlin" revision="nougat" remote="github" />
+<project path="kernel/sony/franco_shamu" name="franciscofranco/Shamu" revision="nougat" remote="github" />
+<project path="kernel/sony/boeffla_oneplus2" name="andip71/boeffla-kernel-cm-oneplus2" revision="boeffla_cm14" remote="github" />
+<project path="kernel/sony/jolla_bullhead" name="jollaman999/jolla-kernel_bullhead" revision="android-7.0.0" remote="github" />
+<project path="kernel/sony/God_YU" name="AudioGod/Gods_kernel_YU" revision="yu-mm6.0" remote="github" />
+<project path="kernel/sony/Racer" name="rachanta/kernel_n5_racer" revision="racer-cm" remote="github" />
+<project path="kernel/sony/Ryytek" name="RyTekk/sony_kernel_kitakami_8994" revision="32.2.A.0.305_RyTek--CAF-based" remote="github" />
+<project path="frameworks/base" name="HaoZeke/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.0-opt" />
+
+<project path="bionic" name="HaoZeke/bionic" groups="pdk" remote="github" revision="7.0-opt" />
+
+<project path="prebuilts/clang/host/linux-x86/3.8-dtc" name="dragon-tc/dragontc-3.8" remote="bitbucket" revision="master" />
+
+
+<!-- My Repos -->
+
+
+<project path="kernel/sony/msm" name="HaoZeke/kernel" revision="7.0-opt" remote="github" />
+
+
+<project path="packages/apps/Settings" name="HaoZeke/packages_apps_Settings" groups="pdk-fs" remote="github" revision="7.0-opt" />
+
+
+
+
+<project path="frameworks/native" name="HaoZeke/frameworks_native" remote="github" revision="7.0-opt" />
+<project path="frameworks/rs" name="HaoZeke/frameworks_rs" remote="github" revision="7.0-opt" />
+<project path="frameworks/support" name="HaoZeke/frameworks_support" remote="github" revision="7.0-opt" />
+<project path="system/sepolicy" name="HaoZeke/system_sepolicy" remote="github" revision="7.0-opt" />
+<project path="system/extras" name="HaoZeke/system_extras" remote="github" revision="7.0-opt" />
+
+<project path="system/core" name="HaoZeke/system_core" remote="github" revision="7.0-opt" />
+<project path="build" name="HaoZeke/build" groups="pdk" remote="github" revision="7.0-opt" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+
+
+<!-- Android/External -->
+  <project path="external/jemalloc" name="AndroidExternal/jemalloc" groups="pdk" />
+  <project path="external/libxml2" name="AndroidExternal/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="ng" />
+  <project path="external/libjpeg-turbo" name="AndroidExternal/libjpeg-turbo" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libpng" name="AndroidExternal/libpng" groups="pdk" remote="github" revision="ng" />
+  <project path="external/sqlite" name="AndroidExternal/sqlite" groups="pdk" remote="github" revision="ng" />
+  <project path="external/freetype" name="AndroidExternal/freetype" groups="pdk" remote="github" revision="ng" />
+  <project path="external/fio" name="AndroidExternal/fio" groups="pdk-fs" remote="github" revision="ng" />
+  <project path="external/v8" name="AndroidExternal/v8" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libvpx" name="AndroidExternal/libvpx" groups="pdk" remote="github" revision="ng" />
+  <project path="external/chromium-webview" name="AndroidExternal/chromium-webview" groups="pdk" remote="github" revision="ng" />
+  <project path="external/webp" name="AndroidExternal/webp" groups="pdk,qcom_msm8x26" remote="github" revision="ng" />
+  <project path="external/elfutils" name="AndroidExternal/elfutils" groups="pdk" remote="github" revision="ng" />
+  <project path="external/ltrace" name="AndroidExternal/ltrace" remote="github" revision="ng" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/expat" name="AndroidExternal/expat" groups="pdk" remote="github" revision="ng" />
+  <project path="external/eigen" name="AndroidExternal/eigen" groups="pdk" remote="github" revision="ng" />
+  <project path="external/f2fs-tools" name="AndroidExternal/f2fs-tools" groups="pdk" remote="github" revision="ng" />
+  <project path="external/wpa_supplicant_8" name="AndroidExternal/wpa_supplicant_8" remote="github" revision="ng" groups="pdk" />
+  <project path="external/valgrind" name="AndroidExternal/valgrind" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libphonenumber" name="AndroidExternal/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="github" revision="ng" />
+  <project path="external/zlib" name="AndroidExternal/zlib" groups="pdk" remote="github" revision="ng" />
+  <project path="external/vixl" name="AndroidExternal/vixl" groups="pdk" remote="github" revision="ng" />
+  <project path="external/chromium-libpac" name="AndroidExternal/chromium-libpac" groups="pdk-fs" remote="github" revision="ng" />
+
+ <!-- <remove-project  name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+-->
+<!-- For Cardinal AOSP
+<remove-project name="SonyAosp/platform_build" />
+<remove-project name="SonyAosp/platform_frameworks_av" />
+<remove-project name="SonyAosp/platform_frameworks_base" />
+<remove-project name="SonyAosp/platform_packages_apps_Settings" /> -->
+<!-- Extra Cyan 
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/flac" />
+  <remove-project name="platform/external/libnfc-nci" />
+  <remove-project name="SonyAosp/platform_packages_providers_DownloadProvider" />
+  <remove-project name="SonyAosp/platform_packages_providers_MediaProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/external/libnfc-nxp" />
+  <remove-project name="SonyAosp/platform_external_tinyalsa" />
+  <remove-project name="SonyAosp/platform_external_tinycompress" />
+  <remove-project name="SonyAosp/platform_external_toybox" />
+  <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/bootable/recovery" />-->
+  <!--<remove-project name="platform/system/tools/aidl" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <remove-project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
+  <remove-project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" />
+
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <remove-project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <remove-project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <remove-project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" />
+  <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <remove-project path="system/media" name="platform/system/media" groups="pdk" />
+  <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
+  <remove-project path="packages/apps/Nfc" name="SonyAosp/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
+  <remove-project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
+-->
+<!-- Caf Additions -->
+
+ <!-- Replacements -->
+ <!--Vendors
+ <remove-project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="android-7.0" />
+ <remove-project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="android-7.0" />
+ <remove-project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.0" />
+
+ <project path="vendor/sony" name="DonkeyCoyote/proprietary_vendor_sony" remote="github" revision="android-7.0" />-->
+
+<project name="QuantumDroid/platform_system_tools_aidl" remote="github" revision="n7.0" path="system/tools/aidl" />
+
+<!-- Additions -->
+  <!-- Begin TeamSubstratum -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" groups="pdk-fs" remote="github" revision="master" />
+
+<remote name="bitbucket" 
+        fetch="https://bitbucket.org/" />
+
+  <!-- UBER Toolchains -->
+<!--  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="mdalexca/aarch64-linux-android-4.9-kernel" remote="bitbucket" revision="master" /> 
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x" name="mdalexca/aarch64-linux-android-5.x-kernel" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x-kernel" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="mdalexca/arm-linux-androideabi-5.x" remote="bitbucket" revision="master" />
+-->
+  <!-- UBER\sdclang -->
+<project path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" name="Rashed97/android_prebuilts_clang_linux-x86_host_sdclang-3.8" revision="cm-14.0" />
+<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
+
+  <!-- Cardinal-AOSP -->
+  <remote  name="crd"
+           fetch="https://github.com/Cardinal-AOSP"
+       revision="n7" />
+
+  <!--<project path="external/DUtils" name="external_DUtils" remote="crd" />
+  <project path="packages/apps/Wings" name="packages_apps_Wings" remote="crd" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="crd" />
+  -->
+  <project path="vendor/cardinal" name="vendor_cardinal" remote="crd" /> 
+
+<!--  <project path="build" name="build"  remote="crd" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/av" name="frameworks_av"  remote="crd" />
+  <project path="frameworks/base" name="frameworks_base" remote="crd" />
+  <project path="manifest" name="manifest" remote="crd" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="crd" />
+
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="crd" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="crd" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="crd" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
+-->
+<!-- AOSP-OMS 
+  <remote  name="rro"
+           fetch="https://github.com/AOSP-RRO"
+revision="nougat" />
+  <project path="art" name="platform_art" groups="pdk" remote="rro" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="rro" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="rro" />
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="rro" />
+  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
+  <linkfile src="root.bp" dest="Android.bp" />
+  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="dalvik" name="platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
+  <project path="external/fuse" name="platform_external_fuse" remote="rro" />
+  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="rro" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="rro" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="rro" />
+  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="rro" />
+  <project path="system/extras" name="platform_system_extras" remote="rro" />
+  <project path="system/media" name="platform_system_media" remote="rro" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="rro" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="rro" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="rro" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="rro" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="packages/apps/Snap" name="platform_packages_apps_Snap" groups="pdk" remote="rro" />
+-->
+<!-- CyanogenMod 
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" revision="cm-14.0" remote="github" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-14.0" remote="github" />
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" revision="cm-14.0" remote="github" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" revision="cm-14.0" remote="github" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" revision="cm-14.0" remote="github" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="cm-14.0" remote="github" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="github" revision="cm-14.0" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" groups="pdk" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-14.0-caf" remote="github" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-14.0" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.0-caf" remote="github" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.0" remote="github" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.0-caf" remote="github" />
+  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" revision="cm-14.0" remote="github" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="cm-14.0" remote="github" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="cm-14.0" remote="github" />
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="cm-14.0" remote="github" />
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="cm-14.0" remote="github" />
+<project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" revision="cm-14.0" remote="github" />
+
+-->
+
+  <!-- Caf additions
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-14.0" remote="github" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="cm-14.0" remote="github" />
+  <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="cm-14.0" remote="github" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="cm-14.0" remote="github" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" revision="cm-14.0" remote="github" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" revision="cm-14.0" remote="github" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="cm-14.0" remote="github" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" revision="cm-14.0" remote="github" />
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" revision="cm-14.0" remote="github" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-14.0" remote="github" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="cm-14.0" remote="github" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="cm-14.0" remote="github" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" revision="cm-14.0" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="cm-14.0" remote="github" />
+  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="cm-14.0" remote="github" />
+ -->
+
+  <!-- Screw'd  -->
+
+  <remote name="screwd"
+           fetch="https://github.com/ScrewdAOSP" />
+
+ <!--<project path="bionic" name="bionic" remote="screwd" revision="n" />-->
+ <project path="art" name="HaoZeke/art" remote="github" revision="7.0-opt" />
+
+
+<project path="libcore" name="HaoZeke/libcore" remote="github" revision="7.0-opt" />
+
+</manifest>

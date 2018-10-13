@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+
+<remote  name="github"
+         fetch="https://github.com/" />
+<remote name="bitbucket" 
+        fetch="https://bitbucket.org/" />
+<remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+  <remote  name="rro"
+           fetch="https://github.com/AOSP-RRO"
+revision="nougat" />
+
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr0" />
+<project path="device/sony/common" name="HaoZeke/device_sony_common" groups="device" remote="github" revision="OmniRom-7.0" />
+<project path="device/sony/kitakami" name="HaoZeke/device_sony_kitakami" groups="device" remote="github" revision="OmniRom-7.0" />
+
+  <project name="android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="omnirom" revision="android-7.0" />
+  <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-7.0" />
+  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-7.0" />
+  <project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-7.0" />
+  <project name="android_packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="omnirom" revision="android-7.0" />
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="omnirom" revision="android-7.0" />
+
+ <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="android-7.0" />
+ 
+
+<!--
+<project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="master" />
+
+<project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.5.5.r1" />
+  <project name="android_kernel_sony_msm" path="kernel/sony/msm" remote="omnirom" revision="android-7.0" />
+<project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.5.r1" />-->
+
+
+<!--<project path="kernel/sony/msm" name="omnirom/android_kernel_sony_msm" remote="github" revision="android-7.1" />
+
+<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
+
+<project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="master" />
+
+<project path="vendor/sony-oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+
+<project path="vendor/sony-oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+
+<project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+
+<project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
+
+<project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
+
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-7.0" />
+ <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="android-7.0" />
+-->
+<!--Vendors-->
+  <project path="vendor/sony" name="DonkeyCoyote/proprietary_vendor_sony" remote="github" revision="android-7.0" />
+
+<!--Toolchains
+ <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />-->
+
+  
+  <!-- Broken temporarily ?
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />-->
+  <!--Unecessary-->
+  <!--<project path="vendor/sony-oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />-->
+
+<!--Removal-->
+
+ <!-- Replace -->
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_bt" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_keymaster" />
+  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+<remove-project name="platform/hardware/qcom/msm8x84" />
+
+
+  <project path="hardware/qcom/audio" name="SonyAosp/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="android-7.0" />
+  <project path="hardware/qcom/bt" name="SonyAosp/platform_hardware_qcom_bt" groups="qcom" remote="github" revision="android-7.0" />
+  <project path="hardware/qcom/camera" name="SonyAosp/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="android-7.0" />
+  <project path="hardware/qcom/display" name="SonyAosp/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="android-7.0" />
+  <project path="hardware/qcom/fm" name="SonyAosp/platform_hardware_qcom_fm" remote="github" revision="master" />
+  <project path="hardware/qcom/gps" name="SonyAosp/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="android-7.0" />
+  <project path="hardware/qcom/keymaster" name="SonyAosp/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="android-7.0" />
+<project path="hardware/qcom/media" name="SonyAosp/platform_hardware_qcom_media" groups="qcom" remote="github" revision="android-7.0" />
+
+
+  <!-- UBER Toolchains 
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="mdalexca/aarch64-linux-android-4.9-kernel" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="mdalexca/aarch64-linux-android-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x" name="mdalexca/aarch64-linux-android-5.x-kernel" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="mdalexca/aarch64-linux-android-6.x-kernel" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="mdalexca/arm-linux-androideabi-5.x" remote="bitbucket" revision="master" />-->
+
+  <!-- UBER\sdclang 
+<project path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bitbucket" name="mdalexca/sdclang-3.8" revision="master" />-->
+
+</manifest>

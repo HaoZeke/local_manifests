@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CyanogenMod/android_device_sony_dogo" path="device/sony/dogo" remote="github" />
+  <project name="CyanogenMod/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="github" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="github" />
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
+  <project name="CyanogenMod/android_device_sony_honami" path="device/sony/honami" remote="github" />
+  <project name="CyanogenMod/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" />
+  <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" />
+  <project name="CyanogenMod/android_kernel_sony_msm" path="kernel/sony/msm" remote="github" />
+  <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" />
+  <project name="CyanogenMod/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" />
+  <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
+</manifest>

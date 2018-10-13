@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="sony"
+           fetch="https://github.com/sonyxperiadev/" />
+
+  <remote name="opengapps" 
+          fetch="https://github.com/opengapps/" />
+
+  <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-7.0" />
+  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.0" />
+
+
+  <project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.0" />
+  <project path="device/sony/sumire" name="SonyAosp/device_sony_sumire" groups="device" remote="github" revision="android-7.0" />
+
+
+
+  <project path="hardware/sony/dataservices" name="SonyAosp/platform_hardware_sony_dataservices" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/thermanager" name="SonyAosp/platform_hardware_sony_thermanager" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/timekeep" name="SonyAosp/platform_hardware_sony_timekeep" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/macaddrsetup" name="SonyAosp/platform_hardware_sony_macaddrsetup" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/init" name="SonyAosp/platform_hardware_sony_init" groups="device" remote="github" revision="android-7.0" />
+
+  <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="android-7.0" />
+
+  <project path="packages/apps/ExtendedSettings" name="SonyAosp/platform_packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
+
+  <!--<project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="android-7.1" />
+  <project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="android-7.1" />
+  <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="android-7.1" />-->
+
+<!--Qcom
+  <project path="hardware/qcom/audio" name="SonyAosp/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/bt" name="SonyAosp/platform_hardware_qcom_bt" groups="qcom" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/camera" name="SonyAosp/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/display" name="SonyAosp/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/fm" name="SonyAosp/platform_hardware_qcom_fm" remote="github" revision="master" />
+  <project path="hardware/qcom/gps" name="SonyAosp/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/keymaster" name="SonyAosp/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="android-7.1" />
+  <project path="hardware/qcom/media" name="SonyAosp/platform_hardware_qcom_media" groups="qcom" remote="github" revision="android-7.1" />
+-->
+<!--Vendors-->
+  <project path="vendor/sony" name="DonkeyCoyote/proprietary_vendor_sony" remote="github" revision="android-7.0" />
+
+<!-- Google 
+
+<project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="android-7.1" >
+  <copyfile src="build.sh" dest="rom-build.sh" />
+</project>
+<project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+
+-->
+<!-- Replace 
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_bt" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_keymaster" />
+  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+
+
+
+-->
+<!-- Remove -->
+
+</manifest>

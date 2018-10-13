@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+  <remote name="bitbucket" 
+          fetch="https://bitbucket.org/" />
+
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+  
+<!--My removed/needed stuff 
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="XperiaMultiROM/android_bootable_recovery" remote="github" revision="master" />
+
+   <project name="Tasssadar/libbootimg" path="system/extras/libbootimg" remote="github" revision="master"/>
+  <project name="Myself5/multirom" path="system/extras/multirom" remote="github" revision="old"/>
+  <project name="Tasssadar/multirom_adbd" path="system/extras/multirom/adbd" remote="github" revision="master"/>
+  <project name="Myself5/kexec-tools" path="system/extras/multirom/kexec-tools" remote="github" revision="master"/> -->
+<!--Vendors-->
+<project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1"/>
+
+ <!--ToolChains
+ <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />-->
+
+  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master"/>
+
+<!--Removed-->
+  <remove-project name="platform/hardware/intel/audio_media"  />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov"/>
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/intel/common/omx-components" />
+  <remove-project name="platform/hardware/intel/common/utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core"/>
+  <remove-project name="platform/hardware/intel/img/psb_headers"/>
+  <remove-project name="CyanogenMod/android_hardware_nvidia_audio" />
+  <remove-project name="platform/prebuilts/devtools" remote="aosp" />
+  <remove-project name="platform/prebuilts/eclipse" remote="aosp" />
+  <!--<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+  remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" /-->
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+</manifest>
