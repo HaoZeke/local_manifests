@@ -1,0 +1,8 @@
+#+TITLE: README [[https://www.paypal.me/HaoZeke/][[[[[https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge]]]]]]
+* Details
+** What?
+A bunch of my ~local_manifest~.
+** Why?
+Mostly for archival purposes or for people who know what these do.
+** TODO Docs?
+Not yet. Maybe someday.
